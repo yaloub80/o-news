@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+.column1 {
+    width: 50%;
+    background-image: url(./images/nicole.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+
+}
+
+#logo__img {
+    background-color: transparent;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+}
+
+.logo__title {
+    position: relative;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    font-size: 2rem;
+    justify-content: right;
+    background-color: #666;
+    opacity: 0.7;
+    text-align: right;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.news h3 {
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+}
+
+.news span {
+    font-style: italic;
+    font-weight: 100;font-size: 2rem;
+}
+
+.link {
+    font-size: 2rem;
+    text-align: right;
+    padding: 2rem;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+
+.column2 {
+    color: black;
+    background-color: #fab;
+    width: 50%;
+}
+
+.subtitle {
+    font-size: 3rem;
+    background-color: #666;
+    padding: 1.5rem;
+}
